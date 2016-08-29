@@ -13,7 +13,7 @@
     NSString *jsonString = @"{\"name\":\"Jack\", \"age\":28, \"gender\":\"男\", \"address\":\"北京-朝阳\",}";
     Person *person = [Person mj_objectWithKeyValues:jsonString];
     NSLog(@"%@",person);
-<img src="https://github.com/kSimpleCoder/XWLog/blob/master/description.png" width = "480" alt="图片描述" align=center />
+<img src="https://github.com/kSimpleCoder/XWLog/blob/master/description.png" width = "640" alt="图片描述" align=center />
 
 3、任意对象调用 propertiesCodeWithDict 传入想要生成属性的字典即可
 
